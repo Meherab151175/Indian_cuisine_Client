@@ -8,7 +8,6 @@ const auth = getAuth(app);
 const Register = () => {
 
 const navigate = useNavigate()
-  const [name,setName] = useState('')
   
   const {createUser,user} = useContext(AuthContext)
 
@@ -29,9 +28,6 @@ const navigate = useNavigate()
         displayName: name, photoURL: photo
       }).then(() => {
       navigate('/')
-
-        // Profile updated!
-        // ...
       })
     })
     .catch((error) => {
