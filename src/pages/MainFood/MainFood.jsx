@@ -6,7 +6,7 @@ import misti from '../../assets/img/misti.jpg'
 import parate from '../../assets/img/parata.png'
 import rice from '../../assets/img/rice.jpg'
 import sobji from '../../assets/img/sobji.jpg'
-import fish from '../../assets/img/fish.jpg'
+import fishe from '../../assets/img/fish.jpg'
 const MainFood = () => {
     return (
         <div className='container mx-auto my-10'>
@@ -20,7 +20,7 @@ const MainFood = () => {
                 <img className='w-fit h-60 border-1 rounded-md p-1' src={parate} alt="" srcset="" />
                 <img className='w-fit h-60 border-1 rounded-md p-1' src={rice} alt="" srcset="" />
                 <img className='w-fit h-60 border-1 rounded-md p-1' src={sobji} alt="" srcset="" />
-                <img className='w-fit h-60 border-1 rounded-md p-1' src={fish} alt="" srcset="" />
+                <img className='w-fit h-60 border-1 rounded-md p-1' src={fishe} alt="" srcset="" />
             </div>
         </div>
     );
