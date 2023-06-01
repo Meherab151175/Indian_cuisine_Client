@@ -50,7 +50,7 @@ const router = createBrowserRouter([
       {
         path: ":id",
         element:<PrivateRoute><ChefsDetails></ChefsDetails></PrivateRoute>,
-        loader:({ params })=>fetch(`http://localhost:5000/allData/${params.id}`)
+        loader:({ params })=>fetch(`https://chef-server-tau-six.vercel.app/allData/${params.id}`)
         
       },
     ],

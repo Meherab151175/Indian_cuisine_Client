@@ -9,7 +9,7 @@ import MainFood from "../MainFood/MainFood";
 const Home = () => {
     const [chefs,setChefs] = useState([])
     useEffect(()=>{
-        fetch("http://localhost:5000/allData")
+        fetch("https://chef-server-tau-six.vercel.app/allData")
         .then(res => res.json())
         .then(data =>setChefs(data))
         .catch(err => console.error(err))
