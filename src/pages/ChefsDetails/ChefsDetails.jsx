@@ -57,7 +57,6 @@ const ChefsDetails = () => {
           </div>
           </div>
 
-          {/* table */}
            
 
             {
