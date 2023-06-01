@@ -16,30 +16,10 @@ const ReceipeTable = ({ receipe }) => {
     ingredients,
     cooking_method,
   } = receipe;
-//   console.log("chef", receipe);
   
   return (
     <div className="relative w-full  overflow-x-auto shadow-md sm:rounded-lg">
       <table className="w-[80%] mx-auto text-sm text-center text-gray-500 dark:text-gray-400">
-        {/* <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-                <th scope="col" className="px-6 py-3">
-                    <span className="sr-only">Image</span>
-                </th>
-                <th scope="col" className="px-6 py-3">
-                    Product
-                </th>
-                <th scope="col" className="px-6 py-3">
-                    Qty
-                </th>
-                <th scope="col" className="px-6 py-3">
-                    Price
-                </th>
-                <th scope="col" className="px-6 py-3">
-                    Action
-                </th>
-            </tr>
-        </thead> */}
         <tbody cl>
           <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
             <td className="w-32 p-4">
