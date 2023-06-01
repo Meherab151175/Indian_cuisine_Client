@@ -20,7 +20,6 @@ const Login = () => {
       const user = res.user;
       console.log(user);
       navigate(from,{replace:true})
-      // <Navigate state={{ from: location }} replace></Navigate>
       form.reset()
     })
     .catch(err=>{
